@@ -10,6 +10,3 @@ navigationMode: linear
 hash: true
 ---
 
----
-# Bibliography
-<div id="refs"></div>
