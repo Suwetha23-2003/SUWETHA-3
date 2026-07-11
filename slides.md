@@ -17,8 +17,8 @@ This boxplot illustrates the distribution of `PartResistance` for `Machine 1` ac
 From the ANOVA, we observe the following statistical significances (Pr(>F) values):
 
 *   **Pressure**: `Pr(>F) = NA`
-*   **Temperature**: `Pr(>F) = 0.000000`
-*   **Pressure * Temperature interaction**: `Pr(>F) = 0.082204`
+*   **Temperature**: `Pr(>F) = 0.0000`
+*   **Pressure * Temperature interaction**: `Pr(>F) = 0.0822`
 
 These values indicate the probability of observing such an effect by chance. A smaller Pr(>F) (typically < 0.05) suggests a statistically significant effect.
 
