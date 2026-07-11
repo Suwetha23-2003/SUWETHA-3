@@ -1,0 +1,3 @@
+Pr(>F) Pressure: NA
+Pr(>F) Temperature: 0
+Pr(>F) Pressure*Temperature: 0.082204269740275

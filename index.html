@@ -549,16 +549,25 @@ id="effect-of-pressure-and-temperature-on-partresistance-for-machine-1"
 class="slide level2">
 <h2>Effect of Pressure and Temperature on PartResistance for Machine
 1</h2>
-<p>Here, we explore the relationship between <code>Pressure</code>,
-<code>Temperature</code>, and <code>PartResistance</code> specifically
-for <code>Machine 1</code>.</p>
-<p>On the right, an interactive scatter plot visualizes
-<code>PartResistance</code> against <code>Pressure</code>. The color of
-each point represents the <code>Temperature</code> during the
-measurement. This helps us observe how changes in pressure and
-temperature simultaneously influence the part’s resistance.</p>
+<p>This boxplot illustrates the distribution of
+<code>PartResistance</code> for <code>Machine 1</code> across different
+levels of <code>Pressure</code>, with the boxes further colored by
+<code>Temperature</code>. This visualization helps to understand how
+these factors, both individually and in combination, influence the
+part’s resistance.</p>
+<p>From the ANOVA, we observe the following statistical significances
+(Pr(&gt;F) values):</p>
+<ul>
+<li><strong>Pressure</strong>: <code>Pr(&gt;F) = NA</code></li>
+<li><strong>Temperature</strong>: <code>Pr(&gt;F) = 0.000000</code></li>
+<li><strong>Pressure * Temperature interaction</strong>:
+<code>Pr(&gt;F) = 0.082204</code></li>
+</ul>
+<p>These values indicate the probability of observing such an effect by
+chance. A smaller Pr(&gt;F) (typically &lt; 0.05) suggests a
+statistically significant effect.</p>
 <div class="r-stretch">
-<iframe data-src="media/plots/machine1_partresistance_plot.html" width="100%" height="500px" style="border:none;">
+<iframe data-src="media/plots/machine1_boxplot_plot.html" width="100%" height="500px" style="border:none;">
 </iframe>
 </div>
 </section>
